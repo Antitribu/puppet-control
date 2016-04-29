@@ -4,7 +4,7 @@ forge 'forge.puppetlabs.com'
 mod 'puppetlabs/ntp', '4.1.0'
 mod 'puppetlabs/stdlib'
 
-mod 'Antitribu/puppet-module-test',
+mod 'Antitribu/puppetmoduletest',
   :git    => 'https://github.com/Antitribu/puppet-module-test.git',
   :branch => @librarian.basedir.split('/').last
   
