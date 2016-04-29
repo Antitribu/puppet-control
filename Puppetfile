@@ -7,3 +7,6 @@ mod 'puppetlabs/stdlib'
 mod 'Antitribu/puppet-module-test',
   :git    => 'https://github.com/Antitribu/puppet-module-test.git',
   :branch => @librarian.basedir.split('/').last
+  
+  
+ # Test
