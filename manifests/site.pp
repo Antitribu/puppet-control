@@ -4,9 +4,9 @@ node default {
   notify {"Master Site":}
  
   
-  $allow_virtual_packages = hiera('allow_virtual_packages',false)
-  Package {
-    allow_virtual => $allow_virtual_packages,
-  }
+  #$allow_virtual_packages = hiera('allow_virtual_packages',false)
+  #Package {
+  #  allow_virtual => $allow_virtual_packages,
+  #}
     
 }
