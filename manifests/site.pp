@@ -9,5 +9,10 @@ node default {
     allow_virtual => $allow_virtual_packages,
   }
     
+  if $virtual == "vmware" {
+    package { 'open-vm-tools':
+      ensure => installed,
+    }
+  }
 }
 
