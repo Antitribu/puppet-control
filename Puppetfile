@@ -19,4 +19,7 @@ mod 'Simon/scriptspublic',
   :git    => 'https://git.think.io/Simon/puppet-scriptspublic.git',
   :branch => @librarian.basedir.split('/').last
   
+mod 'Simon/shell',
+  :git    => 'https://git.think.io/Simon/puppet-shell.git',
+  :branch => @librarian.basedir.split('/').last
  
