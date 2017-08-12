@@ -3,6 +3,7 @@ forge 'forge.puppetlabs.com'
 # Forge Modules
 mod 'puppetlabs/stdlib'
 mod 'elasticsearch/elasticsearch'
+mod 'example42/network'
 
 mod 'Simon/clocksync',
   :git    => 'https://git.think.io/Simon/puppet-clocksync.git',
