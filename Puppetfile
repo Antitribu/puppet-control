@@ -15,6 +15,10 @@ mod 'Simon/clamscan',
   :git    => 'https://git.think.io/Simon/puppet-clamscan.git',
   :branch => @librarian.basedir.split('/').last
 
+mod 'Simon/hieraglue',
+  :git    => 'https://git.think.io/Simon/puppet-hieraglue.git',
+  :branch => @librarian.basedir.split('/').last
+
 mod 'Simon/packages',
   :git    => 'https://git.think.io/Simon/puppet-packages.git',
   :branch => @librarian.basedir.split('/').last
