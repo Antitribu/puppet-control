@@ -1,7 +1,7 @@
 node default {
   hiera_include('classes')
   
-  notify {"Production Site":}
+  #notify {"Production Site":}
  
   
   $allow_virtual_packages = hiera('allow_virtual_packages',false)
