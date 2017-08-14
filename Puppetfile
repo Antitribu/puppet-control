@@ -5,7 +5,7 @@ mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
 mod 'elasticsearch/elasticsearch'
 mod 'example42/network'
-mod 'ghoneycutt-ssh'
+mod 'ghoneycutt-ssh', '3.54.0'
 
 mod 'Simon/clocksync',
   :git    => 'https://git.think.io/Simon/puppet-clocksync.git',
