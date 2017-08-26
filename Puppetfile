@@ -8,6 +8,7 @@ mod 'example42/network'
 mod 'ghoneycutt-ssh', '3.54.0'
 mod 'dhoppe-postfix', '1.4.2'
 mod 'dhoppe-fail2ban', '1.3.4'
+mod 'puppet-extlib', '1.1.0'
 
 mod 'Simon/clocksync',
   :git    => 'https://git.think.io/Simon/puppet-clocksync.git',
