@@ -10,7 +10,7 @@ mod 'dhoppe-postfix', '1.4.2'
 mod 'dhoppe-fail2ban', '1.3.4'
 mod 'puppet-extlib', '1.1.0'
 mod 'agronaught-autossh', '1.2.5'
-mod 'puppetlabs-ntp', '7.0.0'
+mod 'puppetlabs-ntp', '6.4.1'
 
 mod 'Simon/clocksync',
   :git    => 'https://git.think.io/Simon/puppet-clocksync.git',
