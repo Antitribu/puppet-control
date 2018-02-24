@@ -14,6 +14,7 @@ mod 'Simon/clocksync',
   :git    => 'https://git.think.io/Simon/puppet-clocksync.git',
   :branch => @librarian.basedir.split('/').last
 
+
 mod 'Simon/autossh',
   :git    => 'https://git.think.io/Simon/puppet-autossh.git',
   :branch => @librarian.basedir.split('/').last
