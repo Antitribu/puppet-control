@@ -45,7 +45,7 @@ mod 'Simon/scriptsprivate',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/sensu',
-  :git    => 'https://git.think.io/Simon/puppet-sensu.git',
+  :git    => 'ssh://git@localhost:11220/Simon/puppet-sensu.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/shell',
