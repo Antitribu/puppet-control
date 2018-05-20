@@ -12,6 +12,10 @@ mod 'puppet-extlib', '1.1.0'
 mod 'agronaught-autossh', '1.2.5'
 mod 'puppetlabs-ntp', '6.4.1'
 
+mod 'Simon/apacheconfigs',
+  :git    => 'ssh://git@localhost:11220/Simon/puppet-apacheconfigs.git',
+  :branch => @librarian.basedir.split('/').last
+
 mod 'Simon/clocksync',
   :git    => 'https://git.think.io/Simon/puppet-clocksync.git',
   :branch => @librarian.basedir.split('/').last
@@ -22,6 +26,10 @@ mod 'Simon/autossh',
 
 mod 'Simon/clamscan',
   :git    => 'https://git.think.io/Simon/puppet-clamscan.git',
+  :branch => @librarian.basedir.split('/').last
+
+mod 'Simon/haproxy',
+  :git    => 'ssh://git@localhost:11220/Simon/puppet-haproxy.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/hieraglue',
