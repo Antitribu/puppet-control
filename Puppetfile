@@ -11,6 +11,7 @@ mod 'dhoppe-fail2ban', '1.3.4'
 mod 'puppet-extlib', '1.1.0'
 mod 'agronaught-autossh', '1.2.5'
 mod 'puppetlabs-ntp', '6.4.1'
+mod 'sensu-sensu', '2.53.0'
 
 mod 'Simon/apacheconfigs',
   :git    => 'ssh://git@localhost:11220/Simon/puppet-apacheconfigs.git',
@@ -52,9 +53,9 @@ mod 'Simon/scriptsprivate',
   :git    => 'ssh://git@localhost:11220/Simon/puppet-scriptsprivate.git',
   :branch => @librarian.basedir.split('/').last
 
-mod 'Simon/sensu',
-  :git    => 'ssh://git@localhost:11220/Simon/puppet-sensu.git',
-  :branch => @librarian.basedir.split('/').last
+#mod 'Simon/sensu',
+#  :git    => 'ssh://git@localhost:11220/Simon/puppet-sensu.git',
+#  :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/shell',
   :git    => 'https://git.think.io/Simon/puppet-shell.git',
