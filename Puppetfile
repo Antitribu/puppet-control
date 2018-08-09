@@ -48,6 +48,10 @@ mod 'Simon/puppetagent',
   :git    => 'https://git.think.io/Simon/puppet-puppetagent.git',
   :branch => @librarian.basedir.split('/').last
 
+mod 'Simon/puppetdocker',
+  :git    => 'https://git.think.io/Simon/puppet-puppetdocker.git',
+  :branch => @librarian.basedir.split('/').last
+
 mod 'Simon/scriptspublic',
   :git    => 'https://git.think.io/Simon/puppet-scriptspublic.git',
   :branch => @librarian.basedir.split('/').last
