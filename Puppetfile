@@ -8,7 +8,7 @@ mod 'puppetlabs-docker', '2.0.0'
 mod 'puppet-extlib', '1.1.0'
 mod 'puppetlabs-ntp', '6.4.1'
 
-mod 'agronaught-autossh', '1.2.5'
+#mod 'agronaught-autossh', '1.2.5'
 mod 'dhoppe-postfix', '1.4.2'
 mod 'dhoppe-fail2ban', '1.3.4'
 mod 'example42/network'
