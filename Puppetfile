@@ -19,10 +19,6 @@ mod 'Simon/apacheconfigs',
   :git    => 'ssh://git@localhost:11220/Simon/puppet-apacheconfigs.git',
   :branch => @librarian.basedir.split('/').last
 
-mod 'Simon/clocksync',
-  :git    => 'https://git.think.io/Simon/puppet-clocksync.git',
-  :branch => @librarian.basedir.split('/').last
-
 mod 'Simon/autossh',
   :git    => 'https://git.think.io/Simon/puppet-autossh.git',
   :branch => @librarian.basedir.split('/').last
@@ -31,6 +27,14 @@ mod 'Simon/clamscan',
   :git    => 'https://git.think.io/Simon/puppet-clamscan.git',
   :branch => @librarian.basedir.split('/').last
 
+mod 'Simon/clocksync',
+  :git    => 'https://git.think.io/Simon/puppet-clocksync.git',
+  :branch => @librarian.basedir.split('/').last
+  
+mod 'Simon/dhcp',
+  :git    => 'https://git.think.io/Simon/puppet-dhcp.git',
+  :branch => @librarian.basedir.split('/').last
+  
 mod 'Simon/haproxy',
   :git    => 'ssh://git@localhost:11220/Simon/puppet-haproxy.git',
   :branch => @librarian.basedir.split('/').last
