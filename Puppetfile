@@ -71,3 +71,6 @@ mod 'Simon/shell',
   :git    => 'https://git.think.io/Simon/puppet-shell.git',
   :branch => @librarian.basedir.split('/').last
   
+mod 'Simon/vtun',
+  :git    => 'ssh://git@localhost:11220/Simon/puppet-vtun.git',
+  :branch => @librarian.basedir.split('/').last
