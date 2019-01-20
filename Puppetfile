@@ -16,7 +16,7 @@ mod 'ghoneycutt-ssh', '3.54.0'
 mod 'sensu-sensu', '2.53.0'
 
 mod 'Simon/apacheconfigs',
-  :git    => 'ssh://git@localhost:11220/Simon/puppet-apacheconfigs.git',
+  :git    => 'ssh://git@10.13.7.10/Simon/puppet-apacheconfigs.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/autossh',
@@ -32,11 +32,11 @@ mod 'Simon/clocksync',
   :branch => @librarian.basedir.split('/').last
   
 mod 'Simon/dhcp',
-  :git    => 'ssh://git@localhost:11220/Simon/puppet-dhcp.git',
+  :git    => 'ssh://git@10.13.7.10/Simon/puppet-dhcp.git',
   :branch => @librarian.basedir.split('/').last
   
 mod 'Simon/haproxy',
-  :git    => 'ssh://git@localhost:11220/Simon/puppet-haproxy.git',
+  :git    => 'ssh://git@10.13.7.10/Simon/puppet-haproxy.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/hieraglue',
@@ -52,7 +52,7 @@ mod 'Simon/puppetagent',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/puppetdocker',
-  :git    => 'ssh://git@localhost:11220/Simon/puppet-puppetdocker.git',
+  :git    => 'ssh://git@10.13.7.10/Simon/puppet-puppetdocker.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/scriptspublic',
@@ -60,11 +60,11 @@ mod 'Simon/scriptspublic',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/scriptsprivate',
-  :git    => 'ssh://git@localhost:11220/Simon/puppet-scriptsprivate.git',
+  :git    => 'ssh://git@10.13.7.10/Simon/puppet-scriptsprivate.git',
   :branch => @librarian.basedir.split('/').last
 
 #mod 'Simon/sensu',
-#  :git    => 'ssh://git@localhost:11220/Simon/puppet-sensu.git',
+#  :git    => 'ssh://git@10.13.7.10/Simon/puppet-sensu.git',
 #  :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/shell',
@@ -72,5 +72,5 @@ mod 'Simon/shell',
   :branch => @librarian.basedir.split('/').last
   
 mod 'Simon/vtun',
-  :git    => 'ssh://git@localhost:11220/Simon/puppet-vtun.git',
+  :git    => 'ssh://git@10.13.7.10/Simon/puppet-vtun.git',
   :branch => @librarian.basedir.split('/').last
