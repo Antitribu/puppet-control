@@ -43,12 +43,20 @@ mod 'Simon/hieraglue',
   :git    => 'https://git.think.io/Simon/puppet-hieraglue.git',
   :branch => @librarian.basedir.split('/').last
 
+mod 'Simon/imapfilter',
+  :git    => 'ssh://git@10.13.7.10/Simon/puppet-imapfilter.git',
+  :branch => @librarian.basedir.split('/').last
+
 mod 'Simon/packages',
   :git    => 'https://git.think.io/Simon/puppet-packages.git',
   :branch => @librarian.basedir.split('/').last
   
 mod 'Simon/puppetagent',
   :git    => 'https://git.think.io/Simon/puppet-puppetagent.git',
+  :branch => @librarian.basedir.split('/').last
+
+mod 'Simon/prometheus',
+  :git    => 'ssh://git@10.13.7.10/Simon/puppet-prometheus.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/puppetdocker',
