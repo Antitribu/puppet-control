@@ -47,6 +47,10 @@ mod 'Simon/imapfilter',
   :git    => 'ssh://git@10.13.7.10/Simon/puppet-imapfilter.git',
   :branch => @librarian.basedir.split('/').last
 
+mod 'Simon/nagios',
+  :git    => 'ssh://git@10.13.7.10/Simon/puppet-nagios.git',
+  :branch => @librarian.basedir.split('/').last
+
 mod 'Simon/packages',
   :git    => 'https://git.think.io/Simon/puppet-packages.git',
   :branch => @librarian.basedir.split('/').last
