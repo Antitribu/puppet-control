@@ -44,7 +44,7 @@ mod 'Simon/hieraglue',
   :branch => @librarian.basedir.split('/').last
 
 mod 'simon/imapfilter',
-  :git    => 'ssh://git@10.13.7.38:simon/puppet-imapfilter.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-imapfilter.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/nagios',
