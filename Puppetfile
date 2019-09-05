@@ -68,11 +68,11 @@ mod 'Simon/puppetdocker',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/scriptspublic',
-  :git    => 'https://git.think.io/Simon/puppet-scriptspublic.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-scriptspublic.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/scriptsprivate',
-  :git    => 'ssh://git@10.13.7.10/Simon/puppet-scriptsprivate.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-scriptsprivate.git',
   :branch => @librarian.basedir.split('/').last
 
 #mod 'Simon/sensu',
