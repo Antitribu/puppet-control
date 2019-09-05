@@ -32,7 +32,7 @@ mod 'Simon/clocksync',
   :branch => @librarian.basedir.split('/').last
   
 mod 'Simon/dhcp',
-  :git    => 'ssh://git@10.13.7.10/Simon/puppet-dhcp.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-dhcp.git',
   :branch => @librarian.basedir.split('/').last
   
 mod 'Simon/haproxy',
