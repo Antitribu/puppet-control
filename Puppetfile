@@ -36,7 +36,7 @@ mod 'Simon/dhcp',
   :branch => @librarian.basedir.split('/').last
   
 mod 'Simon/haproxy',
-  :git    => 'ssh://git@10.13.7.10/Simon/puppet-haproxy.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-haproxy.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/hieraglue',
@@ -60,7 +60,7 @@ mod 'Simon/puppetagent',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/prometheus',
-  :git    => 'ssh://git@10.13.7.10/Simon/puppet-prometheus.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-prometheus.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/puppetdocker',
