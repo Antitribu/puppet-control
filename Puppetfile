@@ -16,19 +16,19 @@ mod 'ghoneycutt-ssh', '3.54.0'
 mod 'sensu-sensu', '2.53.0'
 
 mod 'Simon/apacheconfigs',
-  :git    => 'ssh://git@10.13.7.10/Simon/puppet-apacheconfigs.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-apacheconfigs.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/autossh',
-  :git    => 'https://git.think.io/Simon/puppet-autossh.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-autossh.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/clamscan',
-  :git    => 'https://git.think.io/Simon/puppet-clamscan.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-clamscan.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/clocksync',
-  :git    => 'https://git.think.io/Simon/puppet-clocksync.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-clocksync.git',
   :branch => @librarian.basedir.split('/').last
   
 mod 'Simon/dhcp',
@@ -40,7 +40,7 @@ mod 'Simon/haproxy',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/hieraglue',
-  :git    => 'https://git.think.io/Simon/puppet-hieraglue.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-hieraglue.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'simon/imapfilter',
@@ -48,15 +48,15 @@ mod 'simon/imapfilter',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/nagios',
-  :git    => 'ssh://git@10.13.7.10/Simon/puppet-nagios.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-nagios.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/packages',
-  :git    => 'https://git.think.io/Simon/puppet-packages.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-packages.git',
   :branch => @librarian.basedir.split('/').last
   
 mod 'Simon/puppetagent',
-  :git    => 'https://git.think.io/Simon/puppet-puppetagent.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-puppetagent.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/prometheus',
@@ -64,7 +64,7 @@ mod 'Simon/prometheus',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/puppetdocker',
-  :git    => 'ssh://git@10.13.7.10/Simon/puppet-puppetdocker.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-puppetdocker.git',
   :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/scriptspublic',
@@ -76,13 +76,13 @@ mod 'Simon/scriptsprivate',
   :branch => @librarian.basedir.split('/').last
 
 #mod 'Simon/sensu',
-#  :git    => 'ssh://git@10.13.7.10/Simon/puppet-sensu.git',
+#  :git    => 'ssh://git@10.13.7.38/simon/puppet-sensu.git',
 #  :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/shell',
-  :git    => 'https://git.think.io/Simon/puppet-shell.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-shell.git',
   :branch => @librarian.basedir.split('/').last
   
 mod 'Simon/vtun',
-  :git    => 'ssh://git@10.13.7.10/Simon/puppet-vtun.git',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-vtun.git',
   :branch => @librarian.basedir.split('/').last
