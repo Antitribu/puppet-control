@@ -47,10 +47,6 @@ mod 'simon/imapfilter',
   :git    => 'ssh://git@10.13.7.38/simon/puppet-imapfilter.git',
   :branch => @librarian.basedir.split('/').last
 
-mod 'Simon/nagios',
-  :git    => 'ssh://git@10.13.7.38/simon/puppet-nagios.git',
-  :branch => @librarian.basedir.split('/').last
-
 mod 'Simon/packages',
   :git    => 'ssh://git@10.13.7.38/simon/puppet-packages.git',
   :branch => @librarian.basedir.split('/').last
@@ -70,10 +66,6 @@ mod 'Simon/scriptspublic',
 mod 'Simon/scriptsprivate',
   :git    => 'ssh://git@10.13.7.38/simon/puppet-scriptsprivate.git',
   :branch => @librarian.basedir.split('/').last
-
-#mod 'Simon/sensu',
-#  :git    => 'ssh://git@10.13.7.38/simon/puppet-sensu.git',
-#  :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/shell',
   :git    => 'ssh://git@10.13.7.38/simon/puppet-shell.git',
