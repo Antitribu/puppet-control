@@ -59,10 +59,6 @@ mod 'Simon/puppetagent',
   :git    => 'ssh://git@10.13.7.38/simon/puppet-puppetagent.git',
   :branch => @librarian.basedir.split('/').last
 
-mod 'Simon/prometheus',
-  :git    => 'ssh://git@10.13.7.38/simon/puppet-prometheus.git',
-  :branch => @librarian.basedir.split('/').last
-
 mod 'Simon/puppetdocker',
   :git    => 'ssh://git@10.13.7.38/simon/puppet-puppetdocker.git',
   :branch => @librarian.basedir.split('/').last
