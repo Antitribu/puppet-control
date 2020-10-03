@@ -47,6 +47,10 @@ mod 'simon/imapfilter',
   :git    => 'ssh://git@10.13.7.38/simon/puppet-imapfilter.git',
   :branch => @librarian.basedir.split('/').last
 
+mod 'Simon/nut',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-nut.git',
+  :branch => @librarian.basedir.split('/').last
+
 mod 'Simon/packages',
   :git    => 'ssh://git@10.13.7.38/simon/puppet-packages.git',
   :branch => @librarian.basedir.split('/').last
