@@ -63,6 +63,10 @@ mod 'Simon/puppetdocker',
   :git    => 'ssh://git@10.13.7.38/simon/puppet-puppetdocker.git',
   :branch => @librarian.basedir.split('/').last
 
+mod 'Simon/watchdog',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-watchdog.git',
+  :branch => @librarian.basedir.split('/').last
+
 mod 'Simon/scriptspublic',
   :git    => 'ssh://git@10.13.7.38/simon/puppet-scriptspublic.git',
   :branch => @librarian.basedir.split('/').last
