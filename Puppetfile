@@ -23,6 +23,10 @@ mod 'Simon/autossh',
   :git    => 'ssh://git@10.13.7.38/simon/puppet-autossh.git',
   :branch => @librarian.basedir.split('/').last
 
+mod 'Simon/bind',
+  :git    => 'ssh://git@10.13.7.38/simon/puppet-bind.git',
+  :branch => @librarian.basedir.split('/').last
+
 mod 'Simon/clamscan',
   :git    => 'ssh://git@10.13.7.38/simon/puppet-clamscan.git',
   :branch => @librarian.basedir.split('/').last
