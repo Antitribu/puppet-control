@@ -1,6 +1,7 @@
 forge 'forge.puppetlabs.com'
 
 # Forge Modules
+mod 'puppet-prometheus_reporter', '1.1.0'
 mod 'puppetlabs-apt', '5.0.1'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
