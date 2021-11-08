@@ -91,6 +91,3 @@ mod 'Simon/shell',
 mod 'Simon/vtun',
   :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-vtun.git',
   :branch => @librarian.basedir.split('/').last
-
-logging:
-  level: warn
