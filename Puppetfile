@@ -17,7 +17,8 @@ mod 'ghoneycutt-ssh', '3.54.0'
 mod 'sensu-sensu', '2.53.0'
 
 mod 'Simon/apacheconfigs',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-apacheconfigs.git'
+  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-apacheconfigs.git',
+  :ref    => "production"
   # :branch => @librarian.basedir.split('/').last
 
 mod 'Simon/autossh',
