@@ -77,7 +77,7 @@ mod 'Simon/watchdog',
   :ref    => "production"
 
 mod 'Simon/scriptspublic',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-scriptspublic.git',
+  :git    => 'ssh://git@github.com:Antitribu/scripts-public.git',
   :ref    => "production"
 
 mod 'Simon/scriptsprivate',
