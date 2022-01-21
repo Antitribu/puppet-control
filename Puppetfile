@@ -25,7 +25,7 @@ mod 'Simon/autossh',
   :ref    => "production"
 
 mod 'Simon/bind',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-bind.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-bind.git',
   :ref    => "production"
 
 mod 'Simon/bird',
