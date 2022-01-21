@@ -37,7 +37,7 @@ mod 'Simon/clamscan',
   :ref    => "production"
 
 mod 'Simon/clocksync',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-clocksync.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-clocksync.git',
   :ref    => "production"
   
 mod 'Simon/dhcp',
@@ -57,7 +57,7 @@ mod 'simon/imapfilter',
   :ref    => "production"
 
 mod 'Simon/nut',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-nut.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-nut.git',
   :ref    => "production"
 
 mod 'Simon/packages',
@@ -73,7 +73,7 @@ mod 'Simon/puppetdocker',
   :ref    => "production"
 
 mod 'Simon/watchdog',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-watchdog.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-watchdog.git',
   :ref    => "production"
 
 mod 'Simon/scriptspublic',
@@ -85,7 +85,7 @@ mod 'Simon/scriptsprivate',
   :ref    => "production"
 
 mod 'Simon/shell',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-shell.git',
+  :git    => 'ssh://git@github.com/Antitribu//puppet-shell.git',
   :ref    => "production"
   
 mod 'Simon/vtun',
