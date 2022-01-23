@@ -17,11 +17,11 @@ mod 'ghoneycutt-ssh', '3.54.0'
 mod 'sensu-sensu', '2.53.0'
 
 mod 'Simon/apacheconfigs',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-apacheconfigs.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-apacheconfigs.git',
   :ref    => "production"
 
 mod 'Simon/autossh',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-autossh.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-autossh.git',
   :ref    => "production"
 
 mod 'Simon/bind',
@@ -29,11 +29,11 @@ mod 'Simon/bind',
   :ref    => "production"
 
 mod 'Simon/bird',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-bird.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-bird.git',
   :ref    => "production"
 
 mod 'Simon/clamscan',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-clamscan.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-clamscan.git',
   :ref    => "production"
 
 mod 'Simon/clocksync',
@@ -41,7 +41,7 @@ mod 'Simon/clocksync',
   :ref    => "production"
   
 mod 'Simon/dhcp',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-dhcp.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-dhcp.git',
   :ref    => "production"
   
 mod 'Simon/haproxy',
@@ -49,7 +49,7 @@ mod 'Simon/haproxy',
   :ref    => "production"
 
 mod 'Simon/hieraglue',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-hieraglue.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-hieraglue.git',
   :ref    => "production"
 
 mod 'simon/imapfilter',
@@ -61,7 +61,7 @@ mod 'Simon/nut',
   :ref    => "production"
 
 mod 'Simon/packages',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-packages.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-packages.git',
   :ref    => "production"
   
 mod 'Simon/puppetagent',
@@ -89,5 +89,5 @@ mod 'Simon/shell',
   :ref    => "production"
   
 mod 'Simon/vtun',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-vtun.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-vtun.git',
   :ref    => "production"
