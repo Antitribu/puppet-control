@@ -65,11 +65,11 @@ mod 'Simon/packages',
   :ref    => "production"
   
 mod 'Simon/puppetagent',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-puppetagent.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-puppetagent.git',
   :ref    => "production"
 
 mod 'Simon/puppetdocker',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-puppetdocker.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-puppetdocker.git',
   :ref    => "production"
 
 mod 'Simon/watchdog',
@@ -81,11 +81,11 @@ mod 'Simon/scriptspublic',
   :ref    => "production"
 
 mod 'Simon/scriptsprivate',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-scriptsprivate.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-scriptsprivate.git',
   :ref    => "production"
 
 mod 'Simon/shell',
-  :git    => 'ssh://git@github.com/Antitribu//puppet-shell.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-shell.git',
   :ref    => "production"
   
 mod 'Simon/vtun',
