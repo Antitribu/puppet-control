@@ -53,7 +53,7 @@ mod 'Simon/hieraglue',
   :ref    => "production"
 
 mod 'simon/imapfilter',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-imapfilter.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-imapfilter.git',
   :ref    => "production"
 
 mod 'Simon/nut',
