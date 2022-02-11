@@ -45,7 +45,7 @@ mod 'Simon/dhcp',
   :ref    => "production"
   
 mod 'Simon/haproxy',
-  :git    => 'ssh://git@gitea.camarilla.local/simon/puppet-haproxy.git',
+  :git    => 'ssh://git@github.com/Antitribu/puppet-haproxy.git',
   :ref    => "production"
 
 mod 'Simon/hieraglue',
