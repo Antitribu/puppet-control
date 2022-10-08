@@ -8,6 +8,7 @@ mod 'puppetlabs/concat'
 mod 'puppetlabs-docker', '2.0.0'
 mod 'puppet-extlib', '1.1.0'
 mod 'puppetlabs-ntp', '6.4.1'
+mod 'puppetlabs-cron_core', '1.1.0'
 
 #mod 'agronaught-autossh', '1.2.5'
 mod 'dhoppe-postfix', '1.4.2'
@@ -39,11 +40,11 @@ mod 'Simon/clamscan',
 mod 'Simon/clocksync',
   :git    => 'ssh://git@github.com/Antitribu/puppet-clocksync.git',
   :ref    => "production"
-  
+
 mod 'Simon/dhcp',
   :git    => 'ssh://git@github.com/Antitribu/puppet-dhcp.git',
   :ref    => "production"
-  
+
 mod 'Simon/haproxy',
   :git    => 'ssh://git@github.com/Antitribu/puppet-haproxy.git',
   :ref    => "production"
@@ -63,7 +64,7 @@ mod 'Simon/nut',
 mod 'Simon/packages',
   :git    => 'ssh://git@github.com/Antitribu/puppet-packages.git',
   :ref    => "production"
-  
+
 mod 'Simon/puppetagent',
   :git    => 'ssh://git@github.com/Antitribu/puppet-puppetagent.git',
   :ref    => "production"
@@ -87,7 +88,7 @@ mod 'Simon/scriptsprivate',
 mod 'Simon/shell',
   :git    => 'ssh://git@github.com/Antitribu/puppet-shell.git',
   :ref    => "production"
-  
+
 mod 'Simon/vtun',
   :git    => 'ssh://git@github.com/Antitribu/puppet-vtun.git',
   :ref    => "production"
