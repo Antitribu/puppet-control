@@ -9,6 +9,7 @@ mod 'puppetlabs-docker', '2.0.0'
 mod 'puppet-extlib', '1.1.0'
 mod 'puppetlabs-ntp', '6.4.1'
 mod 'puppetlabs-cron_core', '1.1.0'
+mod 'puppetlabs-sshkeys_core', '2.3.0'
 
 #mod 'agronaught-autossh', '1.2.5'
 mod 'dhoppe-postfix', '1.4.2'
